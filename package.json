@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "sass":"sass  --style=expanded --watch styles:dist"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex1ci1ting/lp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ex1ci1ting/lp/issues"
+  },
+  "homepage": "https://github.com/ex1ci1ting/lp#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}
