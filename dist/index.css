@@ -1,6 +1,89 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "NEXT ART";
+  src: url(/fonts/NEXT\ ART_Regular.otf);
+  font-weight: 700px;
+}
+@font-face {
+  font-family: "Nunito Sans";
+  src: url(/fonts/NunitoSans-Regular.ttf);
+  font-weight: 700px;
+}
 h1 {
-  color: red;
-  font-size: 150px;
+  margin: 0;
+}
+
+.hero {
+  padding-top: 15px;
+  height: 985px;
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero__header {
+  margin-bottom: 463px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero__header-img {
+  width: 137px;
+  height: 72px;
+  margin: 0 212px 0 0;
+}
+.hero__header .nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 24px;
+  margin-right: 50px;
+  flex-wrap: nowrap;
+}
+.hero__header .nav-element {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.hero__header .nav-element:hover {
+  color: #F2BE22;
+}
+.hero__header-button {
+  width: 157px;
+  height: 44px;
+  background-color: #1A3E3E;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+.hero__header-button:hover {
+  background-color: white;
+  color: #1A3E3E;
+  border: 1px solid #1A3E3E;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=index.css.map */

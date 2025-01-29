@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "sass":"sass  --style=expanded --watch styles:dist"
-    
+    "sass": "sass  --style=expanded --watch styles:dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   "homepage": "https://github.com/ex1ci1ting/lp#readme",
   "description": "",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "sass": "^1.83.4"
   }
 }
